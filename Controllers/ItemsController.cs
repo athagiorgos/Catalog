@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Catalog.Dtos;
 using Catalog.Entities;
 using Catalog.Repositories;
@@ -39,6 +35,55 @@ namespace Catalog.Controllers
             }
 
             return Ok(item.AsDto());
+        }
+
+
+        [HttpPost]
+        public ActionResult<ItemDto> CreateItem(CreateItemDto createItemDto)
+        {
+            Item item = new()
+            {
+                Id = Guid.NewGuid(),
+                Name = createItemDto.Name,
+                Price = createItemDto.Price,
+                CreatedDate = DateTime.UtcNow
+            };
+
+            _itemsRepository.CreateItem(item);
+
+            return CreatedAtAction(nameof(GetItem), new { id = item.Id }, item.AsDto());
+        }
+
+
+        [HttpPut("{id}")]
+        public ActionResult UpdateItem(Guid id, UpdateItemDto updateItemDto)
+        {
+            var existingItem = _itemsRepository.GetItem(id);
+
+            if(existingItem is null) return NotFound();
+
+            Item updatedItem = existingItem with
+            {
+                Name = updateItemDto.Name,
+                Price = updateItemDto.Price,
+            };
+
+            _itemsRepository.UpdateItem(updatedItem);
+
+            return NoContent();
+        }
+
+
+        [HttpDelete("{id}")]
+        public ActionResult DeleteItem(Guid id)
+        {
+            var existingItem = _itemsRepository.GetItem(id);
+
+            if(existingItem is null) return NotFound();
+
+            _itemsRepository.DeleteItem(existingItem.Id);
+
+            return NoContent();
         }
     }
 }

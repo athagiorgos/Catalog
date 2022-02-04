@@ -1,18 +1,18 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace Catalog.Dtos
 {
-    public record ItemDto
+    public record UpdateItemDto
     {
-        public Guid Id { get; init; } // init after the creation you can no longer modify this
-
+        [Required]
         public string Name { get; set; }
 
+        [Required]
+        [Range(1, 1000)]
         public decimal Price { get; set; }
-
-        public DateTimeOffset CreatedDate { get; init; }
     }
 }
