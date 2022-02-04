@@ -9,9 +9,9 @@ namespace Catalog.Controllers
     [Route("items")]
     public class ItemsController : ControllerBase
     {
-        private readonly IInMemoryItemsRepository _itemsRepository;
+        private readonly IItemsRepository _itemsRepository;
 
-        public ItemsController(IInMemoryItemsRepository itemsRepository)
+        public ItemsController(IItemsRepository itemsRepository)
         {
             _itemsRepository = itemsRepository;
         }
