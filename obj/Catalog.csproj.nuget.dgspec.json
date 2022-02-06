@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\athan\\Documents\\asp.net_core\\Catalog\\Catalog.csproj": {}
+    "C:\\Users\\Giorgos\\Documents\\asp-net-core\\Catalog\\Catalog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\athan\\Documents\\asp.net_core\\Catalog\\Catalog.csproj": {
+    "C:\\Users\\Giorgos\\Documents\\asp-net-core\\Catalog\\Catalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\athan\\Documents\\asp.net_core\\Catalog\\Catalog.csproj",
+        "projectUniqueName": "C:\\Users\\Giorgos\\Documents\\asp-net-core\\Catalog\\Catalog.csproj",
         "projectName": "Catalog",
-        "projectPath": "C:\\Users\\athan\\Documents\\asp.net_core\\Catalog\\Catalog.csproj",
-        "packagesPath": "C:\\Users\\athan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\athan\\Documents\\asp.net_core\\Catalog\\obj\\",
+        "projectPath": "C:\\Users\\Giorgos\\Documents\\asp-net-core\\Catalog\\Catalog.csproj",
+        "packagesPath": "C:\\Users\\Giorgos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Giorgos\\Documents\\asp-net-core\\Catalog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\athan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Giorgos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.telerik.com/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
