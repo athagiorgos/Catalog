@@ -84,3 +84,4 @@ C:\Users\Giorgos\Documents\asp-net-core\Catalog\obj\Debug\net6.0\Catalog.dll
 C:\Users\Giorgos\Documents\asp-net-core\Catalog\obj\Debug\net6.0\ref\Catalog.dll
 C:\Users\Giorgos\Documents\asp-net-core\Catalog\obj\Debug\net6.0\Catalog.pdb
 C:\Users\Giorgos\Documents\asp-net-core\Catalog\obj\Debug\net6.0\Catalog.genruntimeconfig.cache
+C:\Users\Giorgos\Documents\asp-net-core\Catalog\bin\Debug\net6.0\HealthChecks.MongoDb.dll

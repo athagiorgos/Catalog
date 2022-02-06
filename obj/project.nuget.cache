@@ -1,11 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "/aGuI+7KqX9ycFB86E1JZZ0yi3QkR8ctOsN9p+f69QhOJUB3VJyXwC7JzCN73Io+99EqOlzVreGDNC1d9tHsMQ==",
+  "dgSpecHash": "Jo77hB6EU3mZ0rAT+OwHwhhEvlbM1HeF3vySiv19dn3eaIw1jZur0LQQd2QOFZI7QnIMJdVHfpEdB41ijBt6hg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Giorgos\\Documents\\asp-net-core\\Catalog\\Catalog.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Giorgos\\.nuget\\packages\\aspnetcore.healthchecks.mongodb\\6.0.1\\aspnetcore.healthchecks.mongodb.6.0.1.nupkg.sha512",
     "C:\\Users\\Giorgos\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\Giorgos\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Giorgos\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Giorgos\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Giorgos\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks\\6.0.0\\microsoft.extensions.diagnostics.healthchecks.6.0.0.nupkg.sha512",
+    "C:\\Users\\Giorgos\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks.abstractions\\6.0.0\\microsoft.extensions.diagnostics.healthchecks.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Giorgos\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\6.0.0\\microsoft.extensions.fileproviders.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Giorgos\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\6.0.0\\microsoft.extensions.hosting.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Giorgos\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Giorgos\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Giorgos\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\Giorgos\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Giorgos\\.nuget\\packages\\mongodb.bson\\2.14.1\\mongodb.bson.2.14.1.nupkg.sha512",
     "C:\\Users\\Giorgos\\.nuget\\packages\\mongodb.driver\\2.14.1\\mongodb.driver.2.14.1.nupkg.sha512",
@@ -17,7 +27,7 @@
     "C:\\Users\\Giorgos\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
     "C:\\Users\\Giorgos\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "C:\\Users\\Giorgos\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
-    "C:\\Users\\Giorgos\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    "C:\\Users\\Giorgos\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
